@@ -36,24 +36,19 @@
 # 		return chebyshev(player, agent)
 
 import numpy as np
-from tensorflow.keras.models import load_model
 
 def orthogonal_move(agent, player):
 	data = np.array([agent + player]) / 7
 	actions = [(-1, 0), (0, 1), (1, 0), (0, -1)]
 
-	model = load_model("models/orthogonal_model.keras")
-	scores = model.predict(data)
-
-	best_action = actions[np.argmax(scores)]
-	return [agent[0] + best_action[0], agent[1] + best_action[1]]
+	# best_action = actions[np.argmax(scores)]
+	# return [agent[0] + best_action[0], agent[1] + best_action[1]]
+	return actions[0]
 
 def octogonal_move(agent, player):
 	data = np.array([agent + player]) / 7
 	actions = [(-1, 0), (0, 1), (1, 0), (0, -1)]
 
-	model = load_model("models/orthogonal_model.keras")
-	scores = model.predict(data)
-
-	best_action = actions[np.argmax(scores)]
-	return [agent[0] + best_action[0], agent[1] + best_action[1]]
+	# best_action = actions[np.argmax(scores)]
+	# return [agent[0] + best_action[0], agent[1] + best_action[1]]
+	return actions[0]
