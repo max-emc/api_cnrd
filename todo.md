@@ -47,7 +47,7 @@
 | :----------------------: | :--: | :------------------------: | :-----------------------------: |
 |            ❓             |  ❌   | Reconstruction de la ville | ❎ tutoriel + audio + recherches |
 | Symbole de la République |  🔄️   |            Quiz            | ❎ tutoriel + audio + recherches |
-
+| Chemins en zigzag | ❌ | [state.io](https://play.google.com/store/apps/details?id=io.state.fight) | 🔄️ |
 
 
 ## Débogage
@@ -73,7 +73,7 @@
 
 ### <u>Libération des villes de France</u> :
 
-*Rechercher les principales villes françaises libérée, la date et quelques informations.*
+*Rechercher les principales villes françaises libérée, la date et quelques informations, et un symbole pour représenter la ville*
 
 **Format**: `bbcode` + `json`
 
@@ -87,14 +87,16 @@
         "liberation": "1944-08-25T00:00:00Z",
         "description": [
             "Explication rapide et formatage en [b]BBcode[/b]"
-        ]
+        ],
+        "symbole": "Tour Effeil"
     },
     "Ville_2": {
         "latitude": 12.345,
         "longitude": 67.890,
         "liberation": "1944-01-01T00:00:00Z",
         "description": [
-            "Explication rapide en [b]BBcode[/b] pour Ville_2"
+            "Explication rapide en [b]BBcode[/b] pour Ville_2",
+        "symbole": "symbole 2"
         ]
     }
 }
