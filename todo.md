@@ -67,3 +67,46 @@
 |           ❓            |    ❌    |
 |           ❓            |    ❌    |
 
+# Recherches
+
+
+
+### <u>Libération des villes de France</u> :
+
+*Rechercher les principales villes françaises libérée, la date et quelques informations.*
+
+**Format**: `bbcode` + `json`
+
+**Exemple** : 
+
+```json
+{
+    "Paris": {
+        "latitude": 48.856613,
+        "longitude": 2.352222,
+        "liberation": "1944-08-25T00:00:00Z",
+        "description": [
+            "Explication rapide et formatage en [b]BBcode[/b]"
+        ]
+    },
+    "Ville_2": {
+        "latitude": 12.345,
+        "longitude": 67.890,
+        "liberation": "1944-01-01T00:00:00Z",
+        "description": [
+            "Explication rapide en [b]BBcode[/b] pour Ville_2"
+        ]
+    }
+}
+```
+
+
+
+**Utilisation dans Godot** :
+
+```js
+var json_date = "2025-02-23T14:30:00Z"
+var date = Time.get_datetime_dict_from_datetime_string(json_date, true)
+var formatted_date = "%02d-%02d-%04d" % [date.day, date.month, date.year]
+print(formatted_date)
+```
