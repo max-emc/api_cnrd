@@ -70,3 +70,13 @@
 |           ❓            |    ❌    |
 
 # Recherches
+
+## Amérique
+- Débarquement (date, qui, où, déroulement, ...)
+- Apports de l'Amérique (argent, ressources, militaires, ...)
+## Résistance
+- Quelques actions de résistance, actions, ...
+## Refondation
+- Changements politiques, droit de vote des femmes, apports, ...
+## Reconstruction
+- Comment s'est passée la reconstruction, qaund, comment, ...
