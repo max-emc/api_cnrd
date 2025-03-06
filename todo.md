@@ -47,8 +47,8 @@
 | :----------------------: | :--: | :------------------------: | :-----------------------------: |
 |            ❓             |  ❌   | Reconstruction de la ville | ❎ tutoriel + audio + recherches |
 | Symboles de la République |  🔄️   |            Quiz            | ❎ tutoriel + audio + recherches |
-| ❓ | ❌ | [state.io](https://play.google.com/store/apps/details?id=io.state.fight) | 🔄️ |
-| ❓ | ❌ | Résistant dans une gare | ❌ |
+| ❓ | ❌ | [state.io](https://play.google.com/store/apps/details?id=io.state.fight) | 🔄️ tutoriel + audio + afficher recherches + 3D|
+| ❓ | ❌ | Infiltration par un résistant | ❌ |
 | ❓ | ❌ | Jeu de gestion | 🔄️ | ❎ tutoriel + audio + recherches + fond + détails (icônes, titre, ...) |
 
 
@@ -79,4 +79,4 @@
 ## Refondation
 - Changements politiques, droit de vote des femmes, apports, ...
 ## Reconstruction
-- Comment s'est passée la reconstruction, qaund, comment, ...
+- Comment s'est passée la reconstruction, quand, comment, ...
