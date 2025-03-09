@@ -15,9 +15,6 @@
 
 - [ ] Animation au survole du joueur
 
-- [ ] Scènes
-
-- [ ] Jeux
 
 <center>
 	<h3>
@@ -25,31 +22,18 @@
     </h3>
 </center>
 
-| Index | Scène | État |          Jeu           | État |
-| :---: | :---: | :--: | :--------------------: | :--: |
-|   1   | Plage |  ✅   |      Débarquement      |   ❎ tutoriel + recherches   |
-|   2   | Ville |  ✅   | Libération de la ville | ❎ tutoriel + audio + recherches |
-|   3   |   ❓   |  ❌   |           ❓            |  ❌   |
-|   4   |   ❓   |  ❌   |           ❓            |  ❌   |
-|   5   |   ❓   |  ❌   |           ❓            |  ❌   |
-|   6   |   ❓   |  ❌   |           ❓            |  ❌   |
-|   7   |   ❓   |  ❌   |           ❓            |  ❌   |
-|   8   |   ❓   |  ❌   |           ❓            |  ❌   |
-|   9   |   ❓   |  ❌   |           ❓            |  ❌   |
+| Index | Scène | État |          Jeu           | État | Sujet |
+| :---: | :---: | :--: | :--------------------: | :--: | :--: |
+|   1   | Plage |  ✅   |      Débarquement      |   ❎ tutoriel + recherches   |   Amérique   |
+|   4   |             ❓             |  ❌   |                Infiltration par un résistant                 |                       ❌                       | Résistance |
+|   3   |   ❓   |  ❌   |           Parachutage |  ❎ recherches + audio  | Résistance |
+|   2   | Ville |  ✅   | Libération de la ville | ❎ tutoriel + audio + recherches | Amérique |
+|   5   |             ❓             |  ❌   |                  Reconstruction de la ville                  |        ❎ tutoriel + audio + recherches        | Reconstruction |
+|   7   |             ❓             |  ❌   | [state.io](https://play.google.com/store/apps/details?id=io.state.fight) | ❎ tutoriel + audio +  3D | Libération |
+|   8   |             ❓             |  ❌   |                    Gestion des ressources                    |                       🔄️                       | Refondation / Reconstruction |
+|   6   | Symboles de la République |  🔄️   |                             Quiz                             |        ❎ tutoriel + audio + recherches        | Refondation |
+|   9   | ❓ | ❌ |                      Gestion financière                      | ❌ | Reconstruction |
 
-<center>
-	<h3>
-        <u>Scènes et jeu non indexés</u>
-    </h3>
-</center>
-
-|          Scène           | État |            Jeu             |              État               |
-| :----------------------: | :--: | :------------------------: | :-----------------------------: |
-|            ❓             |  ❌   | Reconstruction de la ville | ❎ tutoriel + audio + recherches |
-| Symboles de la République |  🔄️   |            Quiz            | ❎ tutoriel + audio + recherches |
-| ❓ | ❌ | [state.io](https://play.google.com/store/apps/details?id=io.state.fight) | 🔄️ tutoriel + audio + afficher recherches + 3D|
-| ❓ | ❌ | Infiltration par un résistant | ❌ |
-| ❓ | ❌ | Jeu de gestion | 🔄️ | ❎ tutoriel + audio + recherches + fond + détails (icônes, titre, ...) |
 
 
 ## Débogage
@@ -57,19 +41,24 @@
 - [ ] Vider la console de débogage
 - [ ] Enlever les messages dans la console
 
-|        Fichier         | Console |
-| :--------------------: | :-----: |
-|          Main          |    ✅    |
-|      Débarquement      |    ✅    |
-| Libération de la ville |    ✅    |
-|          Quiz          |    ✅    |
-|           ❓            |    ❌    |
-|           ❓            |    ❌    |
-|           ❓            |    ❌    |
-|           ❓            |    ❌    |
-|           ❓            |    ❌    |
+|            Fichier            | Console |
+| :---------------------------: | :-----: |
+|             Main              |    ✅    |
+|         Débarquement          |    ✅    |
+| Infiltration par un résistant |    ❌    |
+|          Parachutage          |    ✅    |
+|    Libération de la ville     |    ✅    |
+|  Reconstruction de la ville   |    ✅    |
+|           State.io            |    ✅    |
+|    Gestion des ressources     |    ❌    |
+|             Quiz              |    ✅    |
+|      Gestion financière       |    ❌    |
+
+
 
 # Recherches
+
+
 
 ## Amérique
 - Débarquement (date, qui, où, déroulement, ...)
