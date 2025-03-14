@@ -61,12 +61,16 @@
 1. Quel plan a vu son commencement en 1945 comme aide financière ?
 	- plan Marshall
 	- 
+
 2. Quelles réformes politiques ont été mises en place en France après 1945 pour recinstruire la République ?
 	- 
+
 3. Rôle des femmes refondation de la société ?
 	- engagement politique et social
+
 4. Pourquoi refondation éducation ?
 	- 
+
 5. Date droit de vote des femmes ?
 	- 21 avril 1944
 6. 
