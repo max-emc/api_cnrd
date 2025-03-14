@@ -1,15 +1,11 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 import json
-
-from enigma_api import Enigma
-from create_forest import ForestGenerator
-from bot import orthogonal_move, octogonal_move
 
 app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Page d'acceuil"
+    return render_template("index.html")
 
 @app.route("/get-enigma/")
 def get_enigma():

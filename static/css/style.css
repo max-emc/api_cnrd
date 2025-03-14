@@ -1,0 +1,101 @@
+body {
+  background-color: #F8F9FA;
+  color: #333;
+  margin: 20px;
+  padding: 0;
+}
+
+#tutorials {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.tutorial {
+  background: #FFF;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tutorial h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.tutorial textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  resize: vertical;
+  transition: border 0.2s ease-in-out;
+}
+
+.tutorial textarea:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+.tutorial p {
+  margin-top: 10px;
+  padding: 10px;
+  background: #EEF3F7;
+  border-left: 4px solid #007BFF;
+  border-radius: 5px;
+  font-size: 16px;
+  white-space: pre-wrap;
+}
+
+.tutorial p a {
+  color: #0056B3;
+  text-decoration: none;
+}
+
+.tutorial p a:hover {
+  text-decoration: underline;
+}
+
+button {
+  position: fixed;
+  background-color: #3943CE;
+  width: 130px;
+  right: 15px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition:
+    background 0.3s,
+    transform 0.1s;
+}
+
+button:hover {
+  background-color: #214888;
+}
+
+button:active {
+  background-color: #1F0161;
+  transform: scale(0.98);
+}
+
+button:disabled {
+  background-color: #6C757D;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.save-button {
+  top: 20px;
+}
+
+.export-button {
+  top: 70px;
+}
